@@ -1,0 +1,8 @@
+print(" ------------------------------------------------")
+print("|                                                |")
+print("|    01HelloWorld                                |")
+print("|    Name : Rex Woods                            |")
+print("|    Version : 01                                |")
+print("|                                                |")
+print(" ------------------------------------------------")
+print("Hello World")
