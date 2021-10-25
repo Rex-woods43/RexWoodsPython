@@ -1,6 +1,6 @@
 print(" ------------------------------------------------")
 print("|                                                |")
-print("|    06 whileLoop                                |")
+print("|    06whileLoop                                 |")
 print("|    Name : Rex Woods                            |")
 print("|    Version : 01                                |")
 print("|                                                |")
