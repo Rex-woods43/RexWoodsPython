@@ -34,7 +34,7 @@ def Menu():
     print("|    Version : 01                                |")
     print("|                                                |")
     print(" ------------------------------------------------")
-    print("1. Hello World ")
+    print("\n1. Hello World ")
     print("2. Goodbye World ")
     print("3. Goodbye Person ")
     print("4. Good Teacher ")
