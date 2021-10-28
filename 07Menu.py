@@ -62,7 +62,7 @@ def Menu():
         pass
     else:
         print("invalid option")
-    print("\n----End of Output -----------------------------")
+    print("\n----End of Output -----------------------------\n\n\n")
     if selection == "x":
         input("Press Enter to continue ")
         #clear ouput after exit
