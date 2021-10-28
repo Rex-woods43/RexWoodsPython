@@ -45,7 +45,7 @@ def Menu():
     print("9. Encode a string ")
     print("x. To Exit ")
     selection = input("Enter an option ")
-    print("----Start of Output ---------------------------\n")
+    print("\n----Start of Output ---------------------------\n")
     if selection == "1":
         Hello_world()
     elif selection == "2":
