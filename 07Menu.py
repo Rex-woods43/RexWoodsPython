@@ -25,6 +25,8 @@ def While_Loop():
         if subject == "IST": 
             print("\n\n Congratulations!!\n\n")
 def Menu():
+    import os
+    os.system('cls')
     print(" ------------------------------------------------")
     print("|                                                |")
     print("|    07Menu                                      |")
@@ -63,6 +65,7 @@ def Menu():
     print("\n----End of Output -----------------------------")
     if selection == "x":
         input("Press Enter to continue ")
+        #clear ouput after exit
     else:
         input("Press Enter to continue ")
         return Menu()
