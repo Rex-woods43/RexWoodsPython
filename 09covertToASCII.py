@@ -7,4 +7,4 @@ print("|                                                |")
 print(" ------------------------------------------------")
 string = input("What is your string? ")
 for element in string:
-    print(element, "=", str(ord(element)))
+    print(element, "=", ord(element))
