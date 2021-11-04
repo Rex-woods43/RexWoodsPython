@@ -24,6 +24,22 @@ def While_Loop():
         subject = input("What is the name of this subject ")
         if subject == "IST": 
             print("\n\n Congratulations!!\n\n")
+def String_Loop():
+    string = input("What is your string? ")
+    for element in string:
+        print(element)
+def Convert_To_ASCII():
+    string = input("What is your string? ")
+    for element in string:
+        print(element, "=", ord(element))
+def Encode_A_String():
+    string = input("What is your string? ")
+    encoded_message = ""
+    for element in string:
+        encoded_element = chr(ord(element)+1)
+        print(element, "=", encoded_element)
+        encoded_message += encoded_element
+        print(encoded_message)
 def Menu():
     import os
     os.system('cls')
@@ -58,6 +74,12 @@ def Menu():
         For_Loop()
     elif selection == "6":
         While_Loop()
+    elif selection == "7":
+        String_Loop()
+    elif selection == "8":
+        Convert_To_ASCII()
+    elif selection == "9":
+        Encode_A_String()
     elif selection == "x":
         pass
     else:
