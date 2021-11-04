@@ -22,8 +22,8 @@ def While_Loop():
     while subject != "IST":
         print ("Not Correct - try again")
         subject = input("What is the name of this subject ")
-        if subject == "IST": 
-            print("\n\n Congratulations!!\n\n")
+    if subject == "IST": 
+        print("\n\n Congratulations!!\n\n")
 def String_Loop():
     string = input("What is your string? ")
     for element in string:

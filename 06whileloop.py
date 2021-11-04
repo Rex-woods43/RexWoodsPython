@@ -9,5 +9,5 @@ subject = input("What is the name of this subject ")
 while subject != "IST":
     print ("Not Correct - try again")
     subject = input("What is the name of this subject ")
-    if subject == "IST": 
-       print("\n\n Congratulations!!\n\n")
+if subject == "IST": 
+    print("\n\n Congratulations!!\n\n")
